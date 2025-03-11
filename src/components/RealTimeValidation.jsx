@@ -45,13 +45,13 @@ const  RealTimeValidation = ()=> {
            <br /><br />
             <div>
                 <label htmlFor="email">Email:</label><br />
-                <input onChange={userEmail} type="email" />
+                <input onChange={userEmail} id='email' type="email" />
                 <p className='error-message'>{emailError ? emailError : ""}</p>
             </div>
             <br /><br />
             <div>
                 <label htmlFor="password">Password:</label><br />
-                <input onChange={userPassword} type="password" />
+                <input onChange={userPassword} id='password' type="password" />
                 <p className='error-message'>{passError? passError : ""}</p>
             </div>
         </form>
